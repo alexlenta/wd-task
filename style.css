@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+tbody>tr:hover {
+  background-color: rgb(241, 241, 241);
+}
+
+#weather {
+  text-align: center;
+}

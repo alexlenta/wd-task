@@ -1,0 +1,60 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>My Day</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="container">
+
+    <h1 id="title">My Day</h1>
+
+    <div id="info"></div>
+
+    <div>
+      <div class="task-title-container">
+        <h1>My task list</h1>
+      </div>
+
+      <table class="table">
+        <thead class="thead-light">
+          <th>#</th>
+          <th>Time</th>
+          <th>Task</th>
+        </thead>
+        <tbody id="taskListBody">
+        </tbody>
+      </table>
+    </div>
+
+    <br /><br />
+    <div>
+      <input id="pageTitleInput" type="text" placeholder="My Day" />
+      <button id="pageTitleBtn">Change page title</button>
+    </div>
+
+    <br />
+
+    <div>
+      <label for="pageColorInput">Select page background</label>
+      <input id="pageColorInput" type="color" placeholder="Select color" />
+    </div>
+
+    <div id="weather">
+      <div id="description"></div>
+      <h1 id="temp"></h1>
+      <div id="location"></div>
+    </div>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
